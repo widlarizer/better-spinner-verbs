@@ -1,0 +1,6 @@
+{
+  "name": "better-spinner-verbs",
+  "owner": { "name": "Emil J. Tywoniak" },
+  "description": "Custom verbs for the Claude Code working spinner",
+  "plugins": [{ "name": "spinner-verbs", "source": "./" }]
+}

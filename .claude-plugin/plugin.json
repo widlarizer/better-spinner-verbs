@@ -1,0 +1,22 @@
+{
+  "name": "spinner-verbs",
+  "version": "0.1.0",
+  "description": "Replaces the verbs in the working spinner with your own list",
+  "author": { "name": "Emil Tywoniak" },
+  "userConfig": {
+    "verbs": {
+      "type": "string",
+      "multiple": true,
+      "title": "Spinner verbs",
+      "description": "Verbs to show while Claude works",
+      "default": ["Doing your mom...", "Committing tax fraud...", "Grooming minors...", "Leaking docs to warthunder forum...", "Immanentizing eschaton...", "Running IDF callbacks..."]
+    },
+    "mode": {
+      "type": "string",
+      "title": "Mode",
+      "description": "replace: only your verbs. mix: your verbs plus Claude Code's own",
+      "options": ["replace", "mix"],
+      "default": "replace"
+    }
+  }
+}
